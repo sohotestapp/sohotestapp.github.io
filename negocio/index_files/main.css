@@ -1,0 +1,282 @@
+@font-face {
+    font-family: "Vodafone Lt";
+    src: url("font/VodafoneLt.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Vodafone Rg";
+    src: url("font/Vodafone-Rg-Regular.ttf") format("truetype");
+}
+
+html,
+body {
+    height: 100%;
+    align-items: center;
+}
+
+body {
+    background-image: url("./../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: #f1f2f3;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0;
+}
+
+.btn-red {
+    border: 1px solid red;
+    background: red;
+    text-decoration: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: #fff;
+    width: 100%;
+    height: 44px;
+    padding: 10px;
+}
+
+.tellus {
+    background: linear-gradient(90deg, #820000 0%, #e60000 100%);
+    height: 60px;
+    color: white;
+    font-weight: bold;
+    font-family: "Vodafone Rg";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+    /* identical to box height, or 92% */
+
+    text-align: center;
+
+    color: #ffffff;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 24px;
+}
+
+input,
+select,
+textarea {
+    border: none !important;
+    outline: none;
+    border-radius: 0 !important;
+}
+
+.form-select option:hover {
+    background-color: rgba(153, 153, 153, 0.2);
+}
+
+.hide {
+    display: none;
+}
+
+.banner {
+    margin: 0px;
+    padding: 0px;
+    max-height: 190px;
+    background-color: #2b292c;
+    display: flex;
+    display: flow-root;
+    color: white;
+}
+
+.logo {
+    margin-left: 40px;
+    margin-top: 29px;
+}
+.header-text {
+    font-family: "Vodafone Lt", sans-serif;
+    position: absolute;
+    left: 40px;
+    top: 103px;
+    font-size: 36px;
+    line-height: 36px;
+}
+.header-text-mobile {
+    display: none;
+    font-family: "Vodafone Lt", sans-serif;
+    position: absolute;
+    left: 19.5px;
+    top: 50.21px;
+    font-weight: 400;
+    font-size: 17.55px;
+    line-height: 18px;
+}
+@media (max-width: 410px) {
+    .header-text {
+        display: none;
+    }
+    .header-text-mobile {
+        display: block;
+    }
+}
+
+.red {
+    font-family: "Vodafone Rg";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #e60000;
+    margin-bottom: 21px;
+}
+
+.header p {
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+p {
+    font-family: "Vodafone Rg";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: justify;
+}
+
+.header {
+    background: white;
+    margin: 0;
+}
+.form-line {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+label {
+    margin-bottom: 0;
+    font-family: "Vodafone Rg";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    color: #363636;
+}
+
+textarea::placeholder,
+.sector {
+    font-family: "Vodafone Rg" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 11px !important;
+    letter-spacing: -0.01em !important;
+
+    color: #565656 !important;
+}
+
+.sector {
+    font-size: 14px !important;
+    height: 38px;
+}
+
+.footer {
+    font-family: "Vodafone Rg";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    /* or 125% */
+
+    text-align: justify;
+
+    color: #363636;
+    margin: 0;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-bottom: 15px;
+    background: white;
+}
+
+.social {
+    background: white;
+    margin: 0;
+}
+
+.social img {
+    height: 25px;
+}
+
+.social a {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 12px;
+    margin-top: 16px;
+}
+
+.form-check a {
+    color: #363636;
+}
+
+@media (max-width: 767px) {
+    .form-line {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .header p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .logo {
+        margin-left: 20px;
+        margin-top: 15px;
+        height: 25px;
+    }
+
+    .header-text {
+        left: 19.5px;
+        top: 50.21px;
+        font-weight: 400;
+        font-size: 17.55px;
+        line-height: 18px;
+    }
+
+    .magazine {
+        height: 135px;
+    }
+    .banner {
+        height: 92.63px;
+    }
+
+    .header {
+        padding-top: 50px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .header .red {
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+    .footer {
+        padding-bottom: 60px;
+    }
+
+    textarea::placeholder,
+    .sector {
+        font-family: "Vodafone Rg" !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        line-height: 11px !important;
+        letter-spacing: -0.01em !important;
+
+        color: #565656 !important;
+    }
+}
