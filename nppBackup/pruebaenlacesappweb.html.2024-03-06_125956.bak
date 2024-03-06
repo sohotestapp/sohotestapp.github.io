@@ -8,8 +8,8 @@
 <body>
 
 <!-- Botón con la acción onclick directa -->
-<button onclick="window.location.href='https://m.vodafone.es/mves/buySim/personelInfo?tariffName=tarifa-prepago-s&amp;adobe_mc=MCMID%3D31788919738553668080122318813603865639%7CMCORGID%3D24A034B852785AB90A490D44%2540AdobeOrg%7CTS%3D1709657588'">Abrir 1</button>
-<button onclick="window.location.assign='https://m.vodafone.es/mves/buySim/personelInfo?tariffName=tarifa-prepago-s&amp;adobe_mc=MCMID%3D31788919738553668080122318813603865639%7CMCORGID%3D24A034B852785AB90A490D44%2540AdobeOrg%7CTS%3D1709657588'">Abrir 2</button>
+<button onclick="window.location.href='https://m.vodafone.es/mves/buySim/personelInfo?tariffName=tarifa-prepago-s&amp;adobe_mc=MCMID%3D31788919738553668080122318813603865639%7CMCORGID%3D24A034B852785AB90A490D44%2540AdobeOrg%7CTS%3D1709657588'">Abrir App</button>
+
 <!-- Botón con la solución utilizando JavaScript -->
 <button onclick="return redirectToWeb(event)">Continuar en la Web 2</button>
 
@@ -46,8 +46,7 @@ function redirectToWeb2(event) {
 }
 
 function redirectToWeb3(event) {
-   event.preventDefault();   
-   window.location.assign("https://m.vodafone.es/mves/buySim/personelInfo?tariffName=tarifa-prepago-s&amp;adobe_mc=MCMID%3D31788919738553668080122318813603865639%7CMCORGID%3D24A034B852785AB90A490D44%2540AdobeOrg%7CTS%3D1709657588");
+    window.location.assign("https://m.vodafone.es/mves/buySim/personelInfo?tariffName=tarifa-prepago-s&amp;adobe_mc=MCMID%3D31788919738553668080122318813603865639%7CMCORGID%3D24A034B852785AB90A490D44%2540AdobeOrg%7CTS%3D1709657588");
 }
 
 
